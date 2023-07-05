@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+  <title>カメラ画像加工アプリ</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./static/style.css" />
+</head>
+
+<body>
+  <h2>カメラ画像加工アプリ</h2>
+
+  <div><button id="shot-button" onclick="cameraShot()">撮影＆加工</button></div>
+
+  <img id="stream-box" src="/stream">
+
+  <hr>
+  <div><img id="kakou-image" src=""></div>
+
+  <script src="https://unpkg.com/axios@1.4.0/dist/axios.min.js"></script>
+  <script src="./static/main.js"></script>
+
+</body>
+
+</html>
